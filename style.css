@@ -1,0 +1,135 @@
+.bgimg{
+	background-image: url(first.jpg);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 700px;
+	border: 1px solid black;
+    animation: mymov 5s infinite;
+}
+
+@keyframes mymov{
+	50%{border :15px solid grey;}
+}
+.mycss2 li{
+	margin-left: 30px;
+
+}
+.mycss3{
+	
+	padding-top: 470px;
+}
+.mycss3 h2{
+   color: yellow;
+}
+.mycss3 h4{
+	color: white;
+}
+.bgimgpkg{
+	background-image: url(pkg.jpg);
+	background-size: 100% 100%;
+	height: 450px;
+}
+.pkgs{
+	margin-top: 100px;
+
+}
+
+.mycsscrd{
+	width: 100% 100%;
+	padding-bottom: 30px;
+	
+	padding-right: 0px;
+}
+
+.styl{
+	padding-right: 30px;
+	padding-bottom: 30px;
+	height: 400px;
+
+ }
+ .bgimgblog{
+ 	background-image: url(blogimg.jpg);
+ 	background-size: 100% 100%;
+ 	height: 450px;
+ }
+ .blg{
+    padding-top: 100px;
+    
+     }
+     .blgpad{
+     	margin-top: 40px;
+     }
+     .blgmrg{
+     	margin-top: 25px;
+
+     }
+    .searchclass{
+    	margin-top: 45px;
+    	padding-top:40px;
+    	padding-left:35px;
+    	padding-right: 35px;
+    	padding-bottom: 50px;
+    	background-color: #E6E6FA;width: 300px;
+        height: 200px;
+        border: 1px solid black;
+        animation: mymo 5s infinite;
+}
+
+@keyframes mymo {
+  50% {box-shadow: 10px 20px 30px black;}
+}
+
+form.search-container input[type=text]{
+	background-color: #f1f1f1;
+	padding: 15px;
+	border:1px solid grey;
+	float: left;
+
+    }
+
+
+ form.search-container button{
+ 	 padding: 10px;
+     background: #2196F3;
+     color: white;
+     font-size: 17px;
+     border: 1px solid grey;
+     border-left: none;
+ }  
+
+.list{
+	margin-top: 60px;
+    background-color: #E6E6FA;
+    padding-bottom: 20px;
+}
+.bgpage{
+	background-image: url(pge.jpg);
+	height: 480px;
+	background-size: 100% 100%;
+}
+.abtbck{
+	background-image: url(unnamed.jpg);
+	height: 1000px;
+	background-size: 100% 100%;
+}
+.navbar2{
+	background-color: grey;
+
+}
+.mynavbar{
+	top: 0px;
+}
+.navbar-scroll{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(255,255,255,0.7);
+	padding:  5px 20px;
+	transition: 0.5s;
+	animation: scroll 0.6s 1;
+}
+@keyframes scroll{
+	0%{transform: translateY(-100%);}
+	100%{transform: translateY(0%);}
+}
